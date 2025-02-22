@@ -1,0 +1,34 @@
+/* Estilo básico para o corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Fonte do texto */
+  background-color: #f4f4f4; /* Cor de fundo */
+  margin: 0; /* Retirar margem padrão */
+  padding: 0; /* Retirar padding */
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #333; /* Cor de fundo escura */
+  color: #fff; /* Cor do texto */
+  text-align: center; /* Alinhar texto ao centro */
+  padding: 1rem; /* Espaçamento interno */
+}
+
+/* Estilo para o rodapé */
+footer {
+  background-color: #333; /* Cor de fundo do rodapé */
+  color: #fff; /* Cor do texto */
+  text-align: center; /* Alinhar texto ao centro */
+  padding: 0.5rem; /* Espaçamento interno */
+  position: fixed; /* Fixar o rodapé no fundo */
+  bottom: 0;
+  width: 100%; /* Garantir que ocupe toda a largura */
+}
+
+/* Estilo para as seções */
+section {
+  padding: 20px; /* Espaçamento interno */
+  margin: 20px; /* Margem externa */
+  background-color: #fff; /* Cor de fundo das seções */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
